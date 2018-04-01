@@ -19,10 +19,10 @@ def getMatrix(filename):
 					if prev_i == 26 and cur_i == 26: # previous character was also non-alphabetical
 						continue
 					else:
-						print(prev_i, cur_i)
+						#print(prev_i, cur_i)
 						M[prev_i][cur_i] += 1
 					prev_i = cur_i
-	return M
+	#return M
 
 
 def getIndex(c):
